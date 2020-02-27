@@ -20,8 +20,6 @@ def open_file(storage_path):
         json_file = {}
     return json_file
 
-temp = []
-temp.extend('Liza')
 
 def write_kv(key, value, storage_path):
     json_file = open_file(storage_path)
